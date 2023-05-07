@@ -1,0 +1,48 @@
+div {
+  margin: 5px;
+}
+
+.header {
+  height: 100px;
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+.footer {
+  height: 100px;
+  background-color: lightgreen;
+  border: 1px solid lightgreen;
+}
+
+.navbar {
+  height: 400px;
+  background-color: yellow;
+  border: 1px solid yellow;
+}
+
+.content {
+  height: 400px;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+}
+
+@media only screen and (min-width: 800px) {
+  .body > div {
+    margin: 0;
+  }
+  .navbar {
+    height: 400px;
+    width: 18%;
+    background-color: yellow;
+    border: 1px solid yellow;
+    display: inline-block;
+  }
+
+  .content {
+    height: 400px;
+    width: 78%;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    display: inline-block;
+  }
+}
